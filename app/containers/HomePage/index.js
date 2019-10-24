@@ -19,7 +19,7 @@ import {
   makeSelectLoading,
   makeSelectError,
 } from 'containers/App/selectors';
-import H2 from 'components/H2';
+import H3 from 'components/H3';
 import ReposList from 'components/ReposList';
 import AtPrefix from './AtPrefix';
 import CenteredSection from './CenteredSection';
@@ -62,7 +62,9 @@ export function HomePage({
       <h1>
         Home
       </h1>
-
+      <p>
+        TSM is a superior League of Legends team.
+      </p>
       <div>
       </div>
     </article>
